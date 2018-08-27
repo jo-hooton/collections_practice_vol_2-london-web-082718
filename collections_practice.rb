@@ -7,7 +7,7 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.find { |str| str.start_with?('wa')}
+  array.find { |str| str.start_with?('wa' || :wa)}
 end
 
 def remove_non_strings(array)
