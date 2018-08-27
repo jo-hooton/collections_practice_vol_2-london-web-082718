@@ -7,7 +7,7 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.find { |str| str.('wa')}
+  array.find { |str| "wall"}
 end
 
 def remove_non_strings(array)
